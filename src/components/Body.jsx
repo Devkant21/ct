@@ -1,4 +1,6 @@
 import React from 'react'
+import profilepic from '../assets/dd.jpg'
+
 
 const DEV = () => {
     return (
@@ -10,7 +12,7 @@ const DEV = () => {
                 Frontend Web Developer
             </div>
         <figure className='rounded-xl mt-8'>
-            <img className='w-24 h-24 rounded-full mx-6' src="./assets/dd.jpg" alt="" width="400" height="400"/>
+            <img className='w-24 h-24 rounded-full mx-6' src={profilepic} alt="" width="400" height="400"/>
                
                 <blockquote>
                     <p className='text-lg font-medium'>
