@@ -1,11 +1,16 @@
 import React from 'react'
 
+
 const Navbar = () => {
     return (
-        <div className='px-4 py-4 bg-slate-600 text-right text-white'>
-            <ul className='px-28 py-4 flex space-x-11 justify-end'>
+        <div className='px-4 py-4 bg-rose-500 text-white'>
+            <div>
+                <a className='px-8 py-4 mx-8 justify-left' href="/">CypherTree</a>
+            </div>  
+            <ul className='px-28 py-4 flex text-right space-x-11 justify-end'>
                 <li className='mx-2 cursor-pointer '>
-                    Home
+                    DEV
+                    
                 </li>
                 <li className='mx-2 cursor-pointer'>
                     Blog
